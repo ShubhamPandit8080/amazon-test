@@ -12,6 +12,10 @@ pip install -r requirements.txt
 playwright install
 pytest -n 2
 
+## Parallel Execution
+Parallel execution is achieved using pytest-xdist:
+pytest -n 2
+
 ## Tech Stack
 - Python
 - Playwright
